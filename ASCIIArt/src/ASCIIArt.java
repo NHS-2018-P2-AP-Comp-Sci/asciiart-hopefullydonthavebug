@@ -15,3 +15,64 @@
  */
 
 // YOUR CODE GOES HERE :)
+
+
+public class ASCIIArt{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    horizontal();
+    vertical();
+    eye();
+    vertical();
+    nose();
+    mouth();
+    vertical();
+    vertical();
+    horizontal();
+    tie();
+    vertical();
+    horizontal();
+    leg();
+    shoe();
+    System.out.println("\n");
+    System.out.println("This a \"spongebob\", or rectangle boy if it really doesn't look like a spongebob. ");
+	}
+	public static void horizontal() {
+		System.out.println("          +—————————————————————————————————————+");
+	}
+	public static void vertical() {
+		System.out.println("          |                                     |");
+	}
+	public static void eye() {
+		System.out.println("          |         \\|/             \\|/         | ");
+		System.out.println("          |         ---             ---         |");
+		System.out.println("          |        ( . )           ( . )        |");
+		System.out.println("          |         ---             ---         |");
+	}
+	public static void nose() {
+		System.out.println("     +————|     -           ______       -      |————+");
+		System.out.println("—————|    |    (           ()           (       |    |————");   
+		System.out.println("     +————|     -           ——————       -      |————+");
+	}
+	public static void mouth() {
+		System.out.println("          |            /————————————\\           |");
+		System.out.println("          |              |  |  |  |             |");
+		System.out.println("          |               ——    ——              |");
+	}
+	public static void tie() {
+		System.out.println("          |                  \\/                 |");
+		System.out.println("          |                  /\\                 |");
+		System.out.println("          |                  \\/                 |");
+	}
+	public static void leg() {
+		System.out.println("                    | |           | |           ");
+		System.out.println("                    | |           | |           ");
+		System.out.println("                    | |           | |           ");
+	}
+	public static void shoe() {
+		System.out.println("              +———— | |      +————| |           ");
+		System.out.println("              |       |      |      |           ");
+		System.out.println("              ————————       ———————           ");
+	}
+}
